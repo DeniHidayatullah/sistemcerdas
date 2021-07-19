@@ -3,7 +3,7 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h2 class="text-white">Aplikasi <span class="font-weight-bold warning">Sistem Pakar</span> Untuk Diagnosa Penyakit <span class="font-weight-bold Warning">myeloproliferative Syndrom</span></h2>
+          <h2 class="text-white">Aplikasi <span class="font-weight-bold warning">Sistem Pakar</span> Untuk Diagnosa Penyakit <span class="font-weight-bold Warning">Myeloproliferative Syndrom</span></h2>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
