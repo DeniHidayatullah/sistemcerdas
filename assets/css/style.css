@@ -1,0 +1,197 @@
+/*Utility*/
+@keyframes check {
+    0% {
+        height: 0;
+        width: 0;
+    }
+    25% {
+        height: 0;
+        width: 10px;
+    }
+    50% {
+        height: 20px;
+        width: 10px;
+    }
+}
+
+.title-accordion{
+    color: #000 !important;
+    font-size: 17px;
+}
+
+
+.group            { 
+  position:relative;
+}
+input               {
+  font-size:18px;
+  padding:10px 10px 5px 5px;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:1px solid #9b59b6;
+}
+input:focus         { outline:none; }
+
+/* LABEL ======================================= */
+.label{
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ .label, input:valid ~ .label        {
+  top:-10px;
+  font-size:14px;
+  color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar    { position:relative; display:block; width:300px; }
+.bar:before, .bar:after     {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#9b59b6; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:100%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from { background:#5264AE; }
+  to    { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+    from { background:#5264AE; }
+  to    { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+    from { background:#5264AE; }
+  to    { width:0; background:transparent; }
+}
+
+
+
+.checkbox {
+    background-color:#fff;
+    height:28px;
+    margin:0 .25em;
+    width:28px;
+    border-radius:4px;
+    border:1px solid #ccc;
+    float:right
+}
+
+.checkbox span {
+    display:block;
+    height:28px;
+    position:relative;
+    width:28px;
+    padding:0
+}
+
+.checkbox span:after {
+    -moz-transform:scaleX(-1) rotate(135deg);
+    -ms-transform:scaleX(-1) rotate(135deg);
+    -webkit-transform:scaleX(-1) rotate(135deg);
+    transform:scaleX(-1) rotate(135deg);
+    -moz-transform-origin:left top;
+    -ms-transform-origin:left top;
+    -webkit-transform-origin:left top;
+    transform-origin:left top;
+    border-right:4px solid #fff;
+    border-top:4px solid #fff;
+    content:'';
+    display:block;
+    height:20px;
+    left:3px;
+    position:absolute;
+    top:15px;
+    width:10px
+}
+.checkbox span:hover:after {
+    border-color:#999
+}
+
+.checkbox input {
+    display:none
+}
+
+.checkbox input:checked + span:after {
+    -webkit-animation:check .8s;
+    -moz-animation:check .8s;
+    -o-animation:check .8s;
+    animation:check .8s;
+    border-color:#555
+}
+
+.checkbox input:checked + .default:after {
+    border-color:#f0e518;
+}
+
+
+.brand-image{
+    float: none !important;
+}
+
+.header-content{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.content-card{
+  margin-top: -100px;
+}
+
+.bg-card-header{
+  background-color: #9b59b6;
+  color: #fff;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .sidebar{
+    margin-bottom: 25px;
+  }
+}
