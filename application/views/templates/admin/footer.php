@@ -1,7 +1,7 @@
 
   <!-- Main Footer -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2019 <a href="http://budianto24.github.io">Budianto</a>.</strong>
+    <strong>Copyright &copy; 2021 <a href="http://budianto24.github.io">SEKARDROM</a>.</strong>
     All rights reserved.
   </footer>
 </div>

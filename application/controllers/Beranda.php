@@ -18,7 +18,7 @@ class Beranda extends CI_Controller {
     	$this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
 
         if($this->form_validation->run() == FALSE){
-	        $data['title'] = "Sistem Pakar Penyakit Tanaman Jagung";
+	        $data['title'] = "Sistem Pakar Penyakit Myeloproliferative Syndrom";
 
 	        $data['penyakit'] = $this->db->get('tb_penyakit')->result_array();
 
