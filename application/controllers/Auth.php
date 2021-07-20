@@ -51,7 +51,7 @@ class Auth extends CI_Controller {
     			redirect('auth');
     	}
     }
-
+// log out
     public function logout()
     {
         $this->session->unset_userdata('id');
