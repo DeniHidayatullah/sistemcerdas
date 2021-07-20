@@ -54,7 +54,7 @@ class Datalatih extends CI_Controller {
 	        $this->load->view('templates/admin/footer');
     	}else{
     		$this->M_datalatih->addDatalatih();
-    		$this->session->set_flashdata('flash', '<div class="alert alert-danger alert-dismissible" role="alert"><i class="fas fa-ban"></i> Berhasil ditambah! </div>');
+    		$this->session->set_flashdata('flash', '<div class="alert alert-success alert-dismissible" role="alert"><i class="fas fa-ban"></i> Berhasil ditambah! </div>');
     			redirect('admin/datalatih');
     	}
 	}
@@ -62,7 +62,7 @@ class Datalatih extends CI_Controller {
 	public function delete($id_datalatih)
 	{
 		$this->M_datalatih->deleteById($id_datalatih);
-		$this->session->set_flashdata('flash', '<div class="alert alert-success alert-dismissible" role="alert"><i class="fas fa-ban"></i> Berhasil dihapus! </div>');
+		$this->session->set_flashdata('flash', '<div class="alert alert-danger alert-dismissible" role="alert"><i class="fas fa-ban"></i> Berhasil dihapus! </div>');
     	redirect('admin/datalatih');
 	}
 }

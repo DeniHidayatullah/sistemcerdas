@@ -17,7 +17,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <span class="font-weight-bold">Jagung<img src="<?= base_url('assets/')?>img/logo-corn3.png" height="40px">Ku</span>
+    <span class="font-weight-bold">SEKARDROM<img src="<?= base_url('assets/')?>img/LOGOSIKARDROM.png" height="40px"></span>
   </div>
   <!-- /.login-logo -->
   <?= $this->session->flashdata('flash');?>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="shortcut icon" href="<?= base_url()?>assets/img/logo-corn.png">
+  <link rel="shortcut icon" href="<?= base_url()?>assets/img/1.jpg">
 
   <title><?= $title;?></title>
 
@@ -51,21 +51,21 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="<?= base_url('dashboard');?>" class="brand-link text-center">
-      <img src="<?= base_url('assets/')?>img/logo-corn3.png" alt="AdminLTE Logo" class="brand-image">
-      <span class="brand-text font-weight-bold">JagungKu</span>
+      <img src="<?= base_url('assets/')?>img/LOGOSIKARDROM.png" alt="AdminLTE Logo" class="brand-image">
+      <span class="brand-text font-weight-bold">SEKARDROM</span>
     </a>
 
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar user panel (optional) -->
-      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+      <!-- <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
           <img src="<?= base_url('assets')?>/img/<?= $user['image']?>" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block"><?= $user['nama'];?></a>
         </div>
-      </div>
+      </div> -->
 
       <!-- Sidebar Menu -->
       <nav class="mt-2">

@@ -83,27 +83,27 @@
 
                         <table class="ml-3">
                           <tr>
-                            <td>Penyakit Bulai</td>
+                            <td>Polisitemia Vera</td>
                             <td>:</td>
                             <td class="text-right"><?= substr(round($probabilitas1, 2), 0, 5);?>%</td>
                           </tr>
                           <tr>
-                            <td>Penyakit Hawar Daun</td>
+                            <td>Trombositosis Esensial</td>
                             <td>:</td>
                             <td class="text-right"><?= substr(round($probabilitas2, 2), 0, 5);?>%</td>
                           </tr>
                           <tr>
-                            <td>Penyakit Karat Daun</td>
+                            <td>Mielofibrosis Primer (atau Mielofibrosis Idiopatik Kronik)</td>
                             <td>:</td>
                             <td class="text-right"><?= substr(round($probabilitas3, 2), 0, 5);?>%</td>
                           </tr>
                           <tr>
-                            <td>Penyakit Busuk Pelepah</td>
+                            <td>Leukimia Mielositik Kronik</td>
                             <td>:</td>
                             <td class="text-right"><?= substr(round($probabilitas4, 2), 0, 5);?>%</td>
                           </tr>
                           <tr>
-                            <td>Penyakit Gosong</td>
+                            <td>Leukimina Eosinofilik Kronik</td>
                             <td>:</td>
                             <td class="text-right"><?= substr(round($probabilitas5, 2), 0, 5);?>%</td>
                           </tr>

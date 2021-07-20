@@ -64,6 +64,17 @@
                       <th>G17</th>
                       <th>G18</th>
                       <th>G19</th>
+                      <th>G20</th>
+                      <th>G21</th>
+                      <th>G22</th>
+                      <th>G23</th>
+                      <th>G24</th>
+                      <th>G25</th>
+                      <th>G26</th>
+                      <th>G27</th>
+                      <th>G28</th>
+                      <th>G29</th>
+                      <th>G30</th>
                       <th>Penyakit</th>
                     </tr>
                   </thead>
