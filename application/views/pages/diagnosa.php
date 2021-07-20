@@ -124,55 +124,6 @@
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                               <div class="card-body">
                                 <p><?= $result['deskripsi'];?></p>
-                                <?php if ($result['kerugian']):?>
-                                <br>
-                                <p>Tingkat kerugian yang dihasilkan: <?= $result['kerugian'];?></p>
-                                <?php endif;?>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header" id="headingTwo">
-                              <h2 class="mb-0">
-                                <button class="btn btn-link collapsed text-dark" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                  <b>Siklus Penyakit</b>
-                                </button>
-                              </h2>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                              <div class="card-body">
-                                <p><?= $result['siklus'];?></p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header" id="headingThree">
-                              <h2 class="mb-0">
-                                <button class="btn btn-link collapsed text-dark" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  <b>Epidemiologi</b>
-                                </button>
-                                <div class="float-right mt-2" style="font-size:20px;">
-                                  <span class="fas fa-info-circle" data-toggle="tooltip" data-placement="bottom" title="Epidemiologi adalah ilmu yang mempelajari pola penyakit serta faktor yang terkait di tingkat populasi."></span>
-                                </div>
-                              </h2>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                              <div class="card-body">
-                                <p><?= $result['epidemiologi'];?></p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header" id="headingFour">
-                              <h2 class="mb-0">
-                                <button class="btn btn-link collapsed text-dark" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                  <b>Pengendalian</b>
-                                </button>
-                              </h2>
-                            </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                              <div class="card-body">
-                                <div><?= $result['pengendalian'];?></div>
                               </div>
                             </div>
                           </div>

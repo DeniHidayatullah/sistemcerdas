@@ -11,6 +11,7 @@ class Beranda extends CI_Controller {
 
 	}
     
+	// untuk menampilkan tampilan awal aplikasi atau home
     public function index()
     {
     	$this->form_validation->set_rules('nama', 'Nama', 'required|trim');
@@ -211,7 +212,7 @@ class Beranda extends CI_Controller {
 
    public function cetak()
    {
-    $this->load->library('pdf');
+    $this->load->library('Pdf');
 
     $nama = $this->session->userdata('nama');
 
@@ -221,8 +222,9 @@ class Beranda extends CI_Controller {
 	$data['result'] = $this->db->get_where('tb_penyakit', ['kode_penyakit' => $kode_penyakit])->row_array();
 
     $this->pdf->setPaper('A4', 'potrait');
-    $this->pdf->filename = "Hasil Diagnosa Penyakit Tanaman Jagung - ".$nama.".pdf";
+    $this->pdf->filename = "Hasil Diagnosa Penyakit Myeloproliferative Syndrom - ".$nama.".pdf";
     $this->pdf->load_view('pdf/cetak_hasil', $data);
+	// $this->load->view('pdf/cetak_hasil',$data);
    }
 
 

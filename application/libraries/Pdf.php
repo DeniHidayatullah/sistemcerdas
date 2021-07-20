@@ -21,7 +21,7 @@ class Pdf extends Dompdf{
     public $filename;
     public function __construct(){
         parent::__construct();
-        $this->filename = "Kehadiran Absensi.pdf";
+        $this->filename = "Hasil.pdf";
     }
     /**
      * Get an instance of CodeIgniter

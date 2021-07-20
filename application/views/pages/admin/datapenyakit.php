@@ -50,33 +50,21 @@
 				        <button class="btn btn-link title-accordion" type="button" data-toggle="collapse" data-target="#collapse<?= $col;?>" aria-expanded="true" aria-controls="collapse<?= $col;?>">
 				          <span class="fas fa-bug"></span> Penyakit <?= $p['nama_penyakit'];?> (<?= $p['nama_latin'];?>)
 				        </button>				        
-					      <div class="float-right">
+					      <!-- <div class="float-right">
 					      	<a href="#" class="btn btn-warning btn-xs"><span class="fas fa-pencil-alt"></span> Edit</a>
-					      </div>
+					      </div> -->
 				      </h2>
 				    </div>
 
 				    <div id="collapse<?= $col;?>" class="collapse" aria-labelledby="heading<?= $col;?>" data-parent="#accordionExample">
 				      <div class="card-body">
 				        <div class="row">
-				        	<div class="col-md-4 text-center">
-				        		<img src="<?= base_url('assets/img/penyakit/').$p['gambar'];?>" class="img-fluid img-thumbnail" height="240px">
-				        	</div>
 				        	<div class="col-md-8 text-justify">
 				        		<b>Kode Penyakit:</b>
 				        		<span class="badge badge-primary"><?= $p['kode_penyakit'];?></span>
 				        		<br><br>
 				        		<b>Deskripsi:</b><br>
 				        		<?= $p['deskripsi'];?>
-				        		<br><br>
-                    <b>Siklus Penyakit:</b><br>
-                    <?= $p['siklus'];?>
-                    <br><br>
-				        		<b>Epidemiologi:</b><br>
-				        		<?= $p['epidemiologi'];?>
-				        		<br><br>
-				        		<b>Pengendalian:</b><br>
-				        		<?= $p['pengendalian'];?>
 				        	</div>
 				        </div>
 				      </div>

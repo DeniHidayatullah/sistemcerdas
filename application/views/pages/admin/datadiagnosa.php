@@ -96,7 +96,7 @@
                 <br>
                 <b>Keterangan Gejala:</b><br>
                 <?php foreach($gejala as $g):?>
-                      G<?= $g['kode_gejala'];?>: <?= $g['gejala'];?><br>
+                      <?= $g['kode_gejala'];?>: <?= $g['gejala'];?><br>
                     <?php endforeach;?>
               </div>
               <!-- /.card-body -->

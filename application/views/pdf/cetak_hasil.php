@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hasil Diagnosa Penyakit Tanaman Jagung</title>
+	<title>Hasil Diagnosa Penyakit Myeloproliferative Syndrom</title>
 	<style type="text/css">
 		@page {
             margin: 0cm 0cm;
@@ -56,11 +56,12 @@
 </head>
 <body>
 	<header>
-		<img src="<?= base_url('assets/img/pdf/header.jpg');?>" width="100%" height="100%">
+		<!-- <img src="<?= base_url('assets/img/pdf/header.jpg');?>" width="100%" height="100%"> -->
+		Hasil Diagnosa
 	</header>
 
 	<footer>
-		<img src="<?= base_url('assets/img/pdf/footer.jpg');?>" width="100%" height="100%">
+		<!-- <img src="<?= base_url('assets/img/pdf/footer.jpg');?>" width="100%" height="100%"> -->
 	</footer>
 
 	<main>
@@ -111,8 +112,8 @@
 	    ?>
 
 	    <div class="text-center">
-        	<p>Tanaman Jagung Anda Terdiagnosa:</p>
-        	<h3>Penyakit Bulai</h3>
+        	<p> Anda Terdiagnosa:</p>
+        	<h3>Penyakit <?= $result['nama_penyakit']?></h3>
     	</div>
 
     	<br>
@@ -120,27 +121,27 @@
     	<b>Nilai Probabilitas:</b>
     	<table style="margin-left: 15px">
     		<tr>
-	            <td>Penyakit <?= $result['nama_penyakit']?></td>
+	            <td>Penyakit Polisitemia Vera</td>
 	            <td>:</td>
 				<td class="text-right"><?= substr(round($probabilitas1, 2), 0, 5);?>%</td>
 	        </tr>
 			<tr>
-				<td>Penyakit Hawar Daun</td>
+				<td>Penyakit Trombositosis Esensial</td>
 				<td>:</td>
 				<td class="text-right"><?= substr(round($probabilitas2, 2), 0, 5);?>%</td>
 			</tr>
 			<tr>
-				<td>Penyakit Karat Daun</td>
+				<td>Penyakit Mielofibrosis Primer (atau Mielofibrosis Idiopatik Kronik)</td>
 				<td>:</td>
 				<td class="text-right"><?= substr(round($probabilitas3, 2), 0, 5);?>%</td>
 			</tr>
 			<tr>
-				<td>Penyakit Busuk Pelepah</td>
+				<td>Penyakit Leukimia Mielositik Kronik</td>
 				<td>:</td>
 				<td class="text-right"><?= substr(round($probabilitas4, 2), 0, 5);?>%</td>
 			</tr>
 			<tr>
-				<td>Penyakit Gosong</td>
+				<td>Penyakit Leukimina Eosinofilik Kronik</td>
 				<td>:</td>
 				<td class="text-right"><?= substr(round($probabilitas5, 2), 0, 5);?>%</td>
 			</tr>
@@ -155,31 +156,7 @@
     		<tr>
     			<td class="text-justify">
     				<?= $result['deskripsi']?>
-    				<br><br>
-    				Tingkat kerugian yang dihasilkan: <?= $result['kerugian']?>
     			</td>
-    		</tr>
-    	</table>
-
-    	<br>
-
-    	<table>
-    		<tr>
-    			<th>Siklus Penyakit:</th>
-    		</tr>
-    		<tr>
-    			<td class="text-justify"><?= $result['siklus']?></td>
-    		</tr>
-    	</table>
-
-    	<br>
-
-    	<table>
-    		<tr>
-    			<th>Pengendalian:</th>
-    		</tr>
-    		<tr>
-    			<td class="text-justify"><?= $result['pengendalian']?></td>
     		</tr>
     	</table>
 	</main>

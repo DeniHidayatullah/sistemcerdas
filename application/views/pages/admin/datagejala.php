@@ -43,20 +43,20 @@
                 <table class="table table-striped table-bordered" id="table1">
                   <thead>
                     <tr>
-                      <th>No</th>
-                      <th>Gejala</th>
+                      <!-- <th>No</th> -->
                       <th>Kode</th>
-                      <th>Action</th>
+                      <th>Gejala</th>
+                      <!-- <th>Action</th> -->
                     </tr>
                   </thead>
                   <tbody>
-                    <?php $i = 1;?>
+                    <!-- <?php $i = 1;?> -->
                     <?php foreach($gejala as $g):?>
                     <tr>
-                      <td><?= $i;?></td>
+                      <!-- <td><?= $i;?></td> -->
+                      <td class="text-center"><?= $g['kode_gejala']?></td>
                       <td><?= $g['gejala']?></td>
-                      <td class="text-center">G<?= $g['kode_gejala']?></td>
-                      <td></td>
+                      <!-- <td></td> -->
                     </tr>
                     <?php $i++;?>
                     <?php endforeach;?>
