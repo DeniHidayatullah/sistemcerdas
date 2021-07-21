@@ -10,11 +10,11 @@ class M_datalatih extends CI_model {
 
 	public function addDatalatih()
 	{
-		for ($i=1; $i <= 30; $i++) { 
+		for ($i=1; $i <= 19; $i++) { 
    			$gejala[$i] = $this->input->post('gejala'.$i);
    		}
    			
-   		for ($i=1; $i <= 30; $i++) { 
+   		for ($i=1; $i <= 19; $i++) { 
    			if ($gejala[$i] == null) {
    				$gejala[$i] = "Tidak";
    			}else{
@@ -41,17 +41,6 @@ class M_datalatih extends CI_model {
 				'G17' => $gejala[17],
 				'G18' => $gejala[18],
 				'G19' => $gejala[19],
-				'G20' => $gejala[20],
-				'G21' => $gejala[21],
-				'G22' => $gejala[22],
-				'G23' => $gejala[23],
-				'G24' => $gejala[24],
-				'G25' => $gejala[25],
-				'G26' => $gejala[26],
-				'G27' => $gejala[27],
-				'G28' => $gejala[28],
-				'G29' => $gejala[29],
-				'G30' => $gejala[30],
 				'kategori'	=> $this->input->post('penyakit')
 	   		];
 

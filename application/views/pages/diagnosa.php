@@ -53,7 +53,7 @@
 
                   <?php }elseif ($this->session->userdata('status') === 2){ ?>
 
-                      <p><b>Anda Bercanda!?</b></p>
+                      <p><b>Anda !?</b></p>
 
                   <?php }else{?>
 
@@ -149,7 +149,7 @@
                                 </label>
                             </td>
                             <td>
-                                <?= $this->session->userdata('G'.$i);?>
+                                <?= $this->session->userdata(''.$i);?>
                             </td>
                         </tr>
                         <?php $i++?>
