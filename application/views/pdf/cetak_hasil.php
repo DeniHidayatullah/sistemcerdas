@@ -55,10 +55,10 @@
 	</style>
 </head>
 <body>
-	<header>
+	<!-- <header> -->
 		<!-- <img src="<?= base_url('assets/img/pdf/header.jpg');?>" width="100%" height="100%"> -->
-		Hasil Diagnosa
-	</header>
+		<!-- Hasil Diagnosa -->
+	<!-- </header> -->
 
 	<footer>
 		<!-- <img src="<?= base_url('assets/img/pdf/footer.jpg');?>" width="100%" height="100%"> -->
