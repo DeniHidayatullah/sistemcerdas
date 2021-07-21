@@ -7,7 +7,7 @@
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Aplikasi ini dibuat bertujuan untuk membantu dan mengedukasi para petani jagung dalam meningkatkan kuantitas dan kualitas tanaman jagung agar kedepannya lebih baik lagi </p>
+          <p class="text-white-75 font-weight-light mb-5">Aplikasi ini bertujuan untuk membantu dalam mendeteksi dini Myeloproliferative Syndrom (Kelainan Sel Darah) </p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#pengantar">Pelajari Lebih Lanjut</a>
         </div>
       </div>
