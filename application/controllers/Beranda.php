@@ -102,12 +102,12 @@ class Beranda extends CI_Controller {
 	   			}
 	   		}	   		
 
-			   $jumK1 = getOut("Polisitemia Vera");      
-			   $jumK2 = getOut("Trombositosis Esensial");
-			   $jumK3 = getOut("Mielofibrosis Primer (atau Mielofibrosis Idiopatik Kronik)");
-			   $jumK4 = getOut("Leukimia Mielositik Kronik");
-			   $jumK5 = getOut("Leukimina Eosinofilik Kronik");
-			$totK = $jumK1+$jumK2+$jumK3+$jumK4+$jumK5;
+			   $jumK1 = getOut("Polisitemia Vera");   //10   
+			   $jumK2 = getOut("Trombositosis Esensial");//10
+			   $jumK3 = getOut("Mielofibrosis Primer (atau Mielofibrosis Idiopatik Kronik)");//8
+			   $jumK4 = getOut("Leukimia Mielositik Kronik");//6
+			   $jumK5 = getOut("Leukimina Eosinofilik Kronik");//10
+			$totK = $jumK1+$jumK2+$jumK3+$jumK4+$jumK5; //jumlah data = contoh 44 
 
 			//jumlah gejala
 			for ($i=1; $i <=19 ; $i++) {
@@ -117,8 +117,11 @@ class Beranda extends CI_Controller {
 				}          
 			}
 
+			//jum[1][1]= contoh 5
 			$HA=($jumK1/$totK)*($jum[1][1]/$jumK1)*($jum[2][1]/$jumK1)*($jum[3][1]/$jumK1)*($jum[4][1]/$jumK1)*($jum[5][1]/$jumK1)*($jum[6][1]/$jumK1)*($jum[7][1]/$jumK1)*($jum[8][1]/$jumK1)*($jum[9][1]/$jumK1)*($jum[10][1]/$jumK1)*($jum[11][1]/$jumK1)*($jum[12][1]/$jumK1)*($jum[13][1]/$jumK1)*($jum[14][1]/$jumK1)*($jum[15][1]/$jumK1)*($jum[16][1]/$jumK1)*($jum[17][1]/$jumK1)*($jum[18][1]/$jumK1)*($jum[19][1]/$jumK1);
-      
+	// 		$HA=($jum[1][1]);
+	// 		var_dump($HA);
+	//   die;
 			$HB=($jumK2/$totK)*($jum[1][2]/$jumK2)*($jum[2][2]/$jumK2)*($jum[3][2]/$jumK2)*($jum[4][2]/$jumK2)*($jum[5][2]/$jumK2)*($jum[6][2]/$jumK2)*($jum[7][2]/$jumK2)*($jum[8][2]/$jumK2)*($jum[9][2]/$jumK2)*($jum[10][2]/$jumK2)*($jum[11][2]/$jumK2)*($jum[12][2]/$jumK2)*($jum[13][2]/$jumK2)*($jum[14][2]/$jumK2)*($jum[15][2]/$jumK2)*($jum[16][2]/$jumK2)*($jum[17][2]/$jumK2)*($jum[18][2]/$jumK2)*($jum[19][2]/$jumK2);
 
 			$HC=($jumK3/$totK)*($jum[1][3]/$jumK3)*($jum[2][3]/$jumK3)*($jum[3][3]/$jumK3)*($jum[4][3]/$jumK3)*($jum[5][3]/$jumK3)*($jum[6][3]/$jumK3)*($jum[7][3]/$jumK3)*($jum[8][3]/$jumK3)*($jum[9][3]/$jumK3)*($jum[10][3]/$jumK3)*($jum[11][3]/$jumK3)*($jum[12][3]/$jumK3)*($jum[13][3]/$jumK3)*($jum[14][3]/$jumK3)*($jum[15][3]/$jumK3)*($jum[16][3]/$jumK3)*($jum[17][3]/$jumK3)*($jum[18][3]/$jumK3)*($jum[19][3]/$jumK3);
