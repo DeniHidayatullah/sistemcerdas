@@ -149,7 +149,7 @@
                                 </label>
                             </td>
                             <td>
-                                <?= $this->session->userdata(''.$i);?>
+                                <?= $this->session->userdata('G'.$i);?>
                             </td>
                         </tr>
                         <?php $i++?>
