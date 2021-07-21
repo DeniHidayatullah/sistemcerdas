@@ -113,7 +113,7 @@ class Beranda extends CI_Controller {
 			for ($i=1; $i <=30 ; $i++) {
 			//jumlah penyakit
 				for ($j=1; $j <=5 ; $j++) {
-			  		$jum[$i][$j]=getKK($gejala[$i], $penyakit[$j-1]['nama_penyakit'], 'G'.$i);
+			  		$jum[$i][$j]=getKK($gejala[$i], $penyakit[$j-1]['nama_penyakit'], ''.$i);
 				}          
 			}
 
