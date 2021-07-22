@@ -50,7 +50,7 @@
         <div class="col-md-6 text-center">
           <h2 class="text-white mt-3">Apa Myeloproliferative Syndrome Itu ?</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4" style="font-size: 18px; color: #fff !important;">Myeloproliferative Syndrome merupakan penyakit yang disebabkan oleh produksi sel darah merah, sel darah putih, atau sel keping darah (trombosit).yang berlebihan pada sumsum tulang. Penyakit ini terbagi dalam enam tipe yaitu leukemia mielositik granulositik kronis akibat banyaknya sel darah putih yang bentuknya tidak normal, polisitemia vera karena peningkatan sel darah merah, mielofibrosis karena sel darah merah dan sel darah putih yang berlebih, trombositemia esensial karena peningkatan jumlah trombosit, leukemia neutrofilik kronis karena jumlah sel darah putih jenis neutrofil, dan leukemia eosinofilik kronis karena jumlah sel darah putih jenis eosinofil dalam darah dan jaringan tubuh yang lain. Seseorang yang menderita penyakit Myeloproliferative dapat merasakan berbagai gejala, di antaranya sesak napas, kulit pucat, hingga tubuh terasa lemas.</p>
+          <p class="text-white-50 mb-4" style="font-size: 18px; color: #fff !important;">Myeloproliferative Syndrome merupakan penyakit kelainan pada sel darah yang disebabkan karen sumsum tulang belakang yang memproduksi sel darah merah, sel darah putih, atau sel keping darah (trombosit) yang berlebihan. Penyakit ini terbagi dalam enam tipe yaitu leukemia mielositik granulositik kronis akibat banyaknya sel darah putih yang bentuknya tidak normal, polisitemia vera karena peningkatan sel darah merah, mielofibrosis karena sel darah merah dan sel darah putih yang berlebih, trombositemia esensial karena peningkatan jumlah trombosit, leukemia neutrofilik kronis karena jumlah sel darah putih jenis neutrofil, dan leukemia eosinofilik kronis karena jumlah sel darah putih jenis eosinofil dalam darah dan jaringan tubuh yang lain. Seseorang yang menderita penyakit Myeloproliferative dapat merasakan berbagai gejala, di antaranya sesak napas, kulit pucat, hingga tubuh terasa lemas.</p>
         </div>
           <a class="btn btn-light btn-xl js-scroll-trigger mt-4" href="#konsultasi">Mulai Konsultasi!</a>
       </div>
@@ -235,7 +235,7 @@
                 <p>E41181135</p>
             </div>
             <div class="col-lg-12 text-center">
-              <p class="text-muted mb-5">Jika ada yang ingin disampaikan bisa hubungi saya melalui kontak dibawah ini, Terimakasih telah berkunjung di website ini..</p>
+              <p class="text-muted mb-5">Jika ada yang ingin disampaikan bisa hubungi kamis melalui kontak dibawah ini, Terimakasih telah berkunjung di website ini..</p>
             </div>
           </div>
       </div>
