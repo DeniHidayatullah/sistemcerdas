@@ -49,7 +49,7 @@
                   <?php if ($this->session->userdata('status') === 1){ ?>
 
                       <!-- Jika tidak ada -->
-                      <p><b>Anda Tidak Memilih Gejala Penyakit Myeloproliferative Syndrom</b></p>
+                      <p><b>Anda Tidak Memilih Gejala Penyakit Myeloproliferative Neoplasm Syndrom</b></p>
 
                   <?php }elseif ($this->session->userdata('status') === 2){ ?>
 
@@ -98,12 +98,12 @@
                             <td class="text-right"><?= substr(round($probabilitas3, 2), 0, 5);?>%</td>
                           </tr>
                           <tr>
-                            <td>Leukimia Mielositik Kronik</td>
+                            <td>Leukemia Mielositik (granulositik) kronik</td>
                             <td>:</td>
                             <td class="text-right"><?= substr(round($probabilitas4, 2), 0, 5);?>%</td>
                           </tr>
                           <tr>
-                            <td>Leukimina Eosinofilik Kronik</td>
+                            <td>Leukimia Eosinofilik Kronik</td>
                             <td>:</td>
                             <td class="text-right"><?= substr(round($probabilitas5, 2), 0, 5);?>%</td>
                           </tr>

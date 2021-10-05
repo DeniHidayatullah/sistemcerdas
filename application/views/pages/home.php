@@ -3,11 +3,11 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h2 class="text-white">Aplikasi <span class="font-weight-bold warning">Sistem Pakar</span> Untuk Diagnosa Penyakit <span class="font-weight-bold Warning">Myeloproliferative Syndrom</span></h2>
+          <h2 class="text-white">Aplikasi <span class="font-weight-bold warning">Sistem Pakar</span> Untuk Diagnosa Penyakit <span class="font-weight-bold Warning">Myeloproliferative Neoplasm Syndrom</span></h2>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Aplikasi ini bertujuan untuk membantu dalam mendeteksi dini Myeloproliferative Syndrom (Kelainan Sel Darah) </p>
+          <p class="text-white-75 font-weight-light mb-5">Aplikasi ini bertujuan untuk membantu dalam mendeteksi dini Myeloproliferative Neoplasm Syndrom (Kelainan Sel Darah) </p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#pengantar">Pelajari Lebih Lanjut</a>
         </div>
       </div>
@@ -48,9 +48,9 @@
             <small class="text-white-50">(Sumber gambar oleh Google)</small>
         </div>
         <div class="col-md-6 text-center">
-          <h2 class="text-white mt-3">Apa Myeloproliferative Syndrome Itu ?</h2>
+          <h2 class="text-white mt-3">Apa Myeloproliferative Neoplasm Syndrome Itu ?</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4" style="font-size: 18px; color: #fff !important;">Myeloproliferative Syndrome merupakan penyakit kelainan pada sel darah yang disebabkan karen sumsum tulang belakang yang memproduksi sel darah merah, sel darah putih, atau sel keping darah (trombosit) yang berlebihan. Penyakit ini terbagi dalam enam tipe yaitu leukemia mielositik granulositik kronis akibat banyaknya sel darah putih yang bentuknya tidak normal, polisitemia vera karena peningkatan sel darah merah, mielofibrosis karena sel darah merah dan sel darah putih yang berlebih, trombositemia esensial karena peningkatan jumlah trombosit, leukemia neutrofilik kronis karena jumlah sel darah putih jenis neutrofil, dan leukemia eosinofilik kronis karena jumlah sel darah putih jenis eosinofil dalam darah dan jaringan tubuh yang lain. Seseorang yang menderita penyakit Myeloproliferative dapat merasakan berbagai gejala, di antaranya sesak napas, kulit pucat, hingga tubuh terasa lemas.</p>
+          <p class="text-white-50 mb-4" style="font-size: 18px; color: #fff !important;">Myeloproliferative Neoplasm Syndrome merupakan penyakit kelainan pada sel darah yang disebabkan karen sumsum tulang belakang yang memproduksi sel darah merah, sel darah putih, atau sel keping darah (trombosit) yang berlebihan. Penyakit ini terbagi dalam enam tipe yaitu leukemia mielositik granulositik kronis akibat banyaknya sel darah putih yang bentuknya tidak normal, polisitemia vera karena peningkatan sel darah merah, mielofibrosis karena sel darah merah dan sel darah putih yang berlebih, trombositemia esensial karena peningkatan jumlah trombosit, leukemia neutrofilik kronis karena jumlah sel darah putih jenis neutrofil, dan leukemia eosinofilik kronis karena jumlah sel darah putih jenis eosinofil dalam darah dan jaringan tubuh yang lain. Seseorang yang menderita penyakit Myeloproliferative dapat merasakan berbagai gejala, di antaranya sesak napas, kulit pucat, hingga tubuh terasa lemas.</p>
         </div>
           <a class="btn btn-light btn-xl js-scroll-trigger mt-4" href="#konsultasi">Mulai Konsultasi!</a>
       </div>
@@ -66,7 +66,7 @@
         <div class="col-md-7 text-center">
           <div class="mt-3">
             <h3 style="font-family: Segoe UI"><span class="font-weight-bold">SEKARDROM</span></h3>
-            <p class="text-muted mb-0">Adalah sebuah aplikasi sistem pakar untuk Diagnosa Penyakit Myeloproliferative Syndrom berbasis website yang bertujuan untuk membantu para Pakar dalam mengatasi permasalahan terkait penyakit Myeloproliferative Syndrom.</p>
+            <p class="text-muted mb-0">Adalah sebuah aplikasi sistem pakar untuk Diagnosa Penyakit Myeloproliferative Neoplasm Syndrom berbasis website yang bertujuan untuk membantu para Pakar dalam mengatasi permasalahan terkait penyakit Myeloproliferative Neoplasm Syndrom.</p>
         </div>
         </div>
       </div>
@@ -77,14 +77,14 @@
               <div class="mt-5">
                 <i class="fas fa-2x fa-cogs text-primary mb-3"></i>
                 <h3 class="h5 mb-2">Metode</h3>
-                <p class="text-muted mb-0">Menggunakan metode Naive Bayes dalam mendiagnosa Penyakit Myeloproliferative Syndrom</p>
+                <p class="text-muted mb-0">Menggunakan metode Naive Bayes dalam mendiagnosa Penyakit Myeloproliferative Neoplasm Syndrom</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center">
               <div class="mt-5">
                 <i class="fas fa-2x fa-info-circle text-primary mb-3"></i>
                 <h3 class="h5 mb-2">Informasi</h3>
-                <p class="text-muted mb-0">Menyediakan informasi berupa data penyakit, penyebab dan penanganan Penyakit Myeloproliferative Syndrom</p>
+                <p class="text-muted mb-0">Menyediakan informasi berupa data penyakit, penyebab dan penanganan Penyakit Myeloproliferative Neoplasm Syndrom</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center">
@@ -112,7 +112,7 @@
       <div class="row justify-content-center mt-4">
         <div class="col-lg-4 ml-auto text-center mb-3 mb-lg-0">
           <img src="<?= base_url('assets/img/2.jpg')?>">
-          <p class="text-white-50" style="font-size: 18px; color: #fff !important;">Isi form konsultasi untuk memulai Diagnosa Penyakit Myeloproliferative Syndrom</p>
+          <p class="text-white-50" style="font-size: 18px; color: #fff !important;">Isi form konsultasi untuk memulai Diagnosa Penyakit Myeloproliferative Neoplasm Syndrom</p>
         </div>
         <div class="col-lg-4 mr-auto text-center">
           <div class="card">
@@ -147,7 +147,7 @@
       <hr class="divider my-4">
       <div class="row justify-content-center">
         <div class="col-md-6 text-center">
-          <p class="text-white-50 mb-5">Berikut ini merupakan beberapa macam penyakit Myeloproliferative Syndrom yang sering dialami menurut oleh para pakar</p>
+          <p class="text-white-50 mb-5">Berikut ini merupakan beberapa macam penyakit Myeloproliferative Neoplasm Syndrom yang sering dialami menurut oleh para pakar</p>
         </div>
       </div>
       <div class="row justify-content-center">

@@ -18,7 +18,7 @@ class Beranda extends CI_Controller {
     	$this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
 
         if($this->form_validation->run() == FALSE){
-	        $data['title'] = "Sistem Pakar Penyakit Myeloproliferative Syndrom";
+	        $data['title'] = "Sistem Pakar Penyakit Myeloproliferative Neoplasm Syndrom";
 
 	        $data['penyakit'] = $this->db->get('tb_penyakit')->result_array();
 
@@ -105,8 +105,8 @@ class Beranda extends CI_Controller {
 			   $jumK1 = getOut("Polisitemia Vera");   //10   
 			   $jumK2 = getOut("Trombositosis Esensial");//10
 			   $jumK3 = getOut("Mielofibrosis Primer (atau Mielofibrosis Idiopatik Kronik)");//8
-			   $jumK4 = getOut("Leukimia Mielositik Kronik");//6
-			   $jumK5 = getOut("Leukimina Eosinofilik Kronik");//10
+			   $jumK4 = getOut("Leukemia Mielositik (granulositik) kronik");//6
+			   $jumK5 = getOut("Leukimia Eosinofilik Kronik");//10
 			$totK = $jumK1+$jumK2+$jumK3+$jumK4+$jumK5; //jumlah data = contoh 44 
 
 			//jumlah gejala
@@ -214,7 +214,7 @@ class Beranda extends CI_Controller {
 	$data['result'] = $this->db->get_where('tb_penyakit', ['kode_penyakit' => $kode_penyakit])->row_array();
 
     $this->pdf->setPaper('A4', 'potrait');
-    $this->pdf->filename = "Hasil Diagnosa Penyakit Myeloproliferative Syndrom - ".$nama.".pdf";
+    $this->pdf->filename = "Hasil Diagnosa Penyakit Myeloproliferative Neoplasm Syndrom - ".$nama.".pdf";
     $this->pdf->load_view('pdf/cetak_hasil', $data);
 	// $this->load->view('pdf/cetak_hasil',$data);
    }
